@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Danke – [Produktname]</title>
+  <meta name="robots" content="noindex" />
+
+  <link rel="stylesheet" href="/assets/base.css" />
+  <link rel="stylesheet" href="../theme.css" />
+
+  <script src="/assets/pixel.js" defer></script>
+  <script src="/assets/base.js" defer></script>
+</head>
+
+<body data-page="thanks">
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Wellkeepr</span>
+      </a>
+      <div class="nav-links">
+        <a href="/legal/datenschutz/">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container section">
+    <div class="card" style="padding:22px;">
+      <h1 style="font-size:var(--h2); margin-top:0;">Danke. Du bist auf der Warteliste.</h1>
+      <p>
+        Wir melden uns, sobald der Early Access startet. Wenn du willst, antworte kurz auf die Bestätigungs-Mail
+        mit: <strong>„Was ist dein größtes Problem gerade?“</strong> – hilft uns extrem.
+      </p>
+
+      <div class="cta-row" style="margin-top:14px;">
+        <a class="btn btn-primary" href="../">Zurück</a>
+        <a class="btn btn-ghost" href="/">Startseite</a>
+      </div>
+
+      <div class="hr"></div>
+      <p class="small">
+        Hinweis: Diese Seite zählt als Conversion (Lead). Meta Pixel Standard-Event „Lead“ wird hier ausgelöst. :contentReference[oaicite:5]{index=5}
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="/legal/impressum/">Impressum</a>
+        <a href="/legal/datenschutz/">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
